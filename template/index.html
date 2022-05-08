@@ -10,23 +10,32 @@
     <title>Taimaz</title>
 </head>
 <body >
-    <div class="navbar  fixed-top">
-        <div class="nav-item text-white">
-            <ul>
-                <li class="nav-items d-inline m-1"><a href="#" class="btn btn-primary rounded-pill btn-sm " role="button" aria-disabled="true">درخواست تماس</a></li>
-                <li class="nav-items d-inline m-1"><a href="#" class="text-white text-decoration-none">سوالات</a></li>
-                <li class="nav-items d-inline m-1"><a href="#" class="text-white text-decoration-none">تماس با ما</a></li>
-            </ul>
-        </div>
-        <div class="navbar-brand mx-5 my-3 text-white">
+    <header class="header" style="visibility: inherit; opacity: 1;">
+        <nav>
+            <a id="login" name="Login with Mollie" class="button" href="https://useplink.com/login" target="_self"
+            rel="nofollow">درخواست تماس</a>
+            <div class="header_menu">
+                <a name="Faq" href="/faq">سوالات</a>
+                <a name="Contact" href="mailto:plink@mollie.com" target="_self">تماس با ما</a>
+                <div class="qr-ball" style="visibility: hidden; opacity: 0;"></div>
+            </div>
+        </nav>
+        <a class="logo" name="Home" href="/">
             <h1>Taimaz</h1>
-        </div>
-    </div>
-    <div class="col-12 text-white row-hero">
-        <video id="myVideo" playsinline autoplay muted>
-            <source src="assets/video/intro.webm" type="video/webm">
-            Your browser does not support the video tag.
-        </video>
+        </a>
+    </header>
+    <div class="page-wrapper">
+        <section class="home_intro">
+            <div class="video-background prllx">
+                <div class="home_intro_videos">
+                    <video class="intro" playsinline autoplay loop muted>
+                        <source src="assets/video/intro.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div class="home_titles">
+            </div>
+        </section>
     </div>
 
     <script src="assets/js/plugins/bootstrap/bootstrap.min.js"></script>
